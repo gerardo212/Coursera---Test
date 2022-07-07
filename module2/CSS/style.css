@@ -1,0 +1,153 @@
+* {
+		box-sizing: border-box;
+		padding: 0;
+
+	}
+	h1 {
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		margin-bottom: 25px;
+	}
+	#txt {
+		position: relative;
+		font-size: 15px;
+		font: helvetica;
+		background-color: gray;
+		border: 3px solid black;
+		width: 100%;
+		height: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 35px;
+	}
+	
+	div#container{
+		 	
+		width: 100%;
+		height: 100%;
+		position: relative;
+		margin: 5px;
+		padding: 10px;
+		align-content: center;
+	}
+
+	.row {
+		width: 100%;
+
+
+	}
+	.title{
+		width: 55px;
+  		height: 25px;
+  		border: 1px solid black;
+	}
+
+
+	
+	/* media for large */
+	@media (min-width: 992px){
+		.col-lg-4{
+			float: left;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.col-lg-4{
+			width: 33.33%;
+		}
+
+		#p1{
+		position:absolute ;
+		background-color: lightpink;
+		left: 75%;
+		bottom: 65%;
+
+		}
+		#p2{
+		position: absolute;
+		background-color: palevioletred;
+		left: 75%;
+		bottom: 65%;
+
+		}
+		#p3{
+			position: absolute;
+		background-color: lightgoldenrodyellow;
+		left: 75%;
+		bottom: 65%;
+
+
+		}
+
+	}
+	
+
+	
+	@media (min-width: 768px) and (max-width: 991px) {
+		.col-md-6, .col-md-12{
+			float: left;
+			border: 5px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.col-md-6{
+			width: 50%;
+		}
+		.col-md-12{
+			width: 100%;
+		}
+		#p1{
+		position: absolute;
+		background-color: lightpink;
+		left: 75%;
+		bottom: 65%;
+
+		}
+		#p2{
+		position: absolute;
+		background-color: palevioletred;
+		left: 75%;
+		bottom: 65%;
+		}
+
+		#p3{
+		background-color: lightgoldenrodyellow;
+		position: absolute;
+		left: 80%;
+		bottom: 55%;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.col-sm-12{
+			border: 5px;
+			margin-right: auto;
+			margin-left: auto;
+
+		}
+		.col-sm-12{
+			width: 100%;
+		}
+		#p1{
+		position: absolute;
+		background-color: lightpink;
+		left: 75%;
+		bottom: 65%;
+		}
+		#p2{
+		position: absolute;
+		background-color: palevioletred;
+		left: 75%;
+		bottom: 65%;
+
+		}
+		#p3{
+		position: absolute;
+		background-color: lightgoldenrodyellow;
+		left: 75%;
+		bottom: 65%;
+	}
+}
+
+	
+
