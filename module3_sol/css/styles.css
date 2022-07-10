@@ -1,0 +1,65 @@
+/********* header ***********/
+#header-nav {
+	background-color: lightgray;
+	
+}
+.navbar-brand h1{
+	font-size: 1.5em;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.navbar-brand{
+	padding: 0 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid black;
+}
+/********** Body ***********/
+#main-content.container{
+	margin:0 5px 0 5px;
+	padding: 0 0 0 0 ;
+
+}
+#main-content{
+	background-color: white;
+	padding-top: 0px;
+	margin-top: 0;
+	overflow: hidden;
+}
+#main-content h1{
+	margin-top: 0;
+	font-weight: bold;
+}
+#main-content .category-tile{
+	background-color: gray;
+	height: 700px;
+	margin-bottom: 15px	;
+	
+}
+#main-content .category-tile  h3{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#main-content .category-tile #content{
+	font-weight: bold;
+}
+
+/********* Extra Small dev *********/
+@media (max-width: 767px){
+#collapsable-nav{
+	background-color: lightskyblue;
+	text-align: center;	
+	border: 2PX solid black;
+}
+#collapsable-nav span hr{
+	width: 80%;
+	background: black;
+	height: 1px;
+}
+
+#collapsable-nav span{
+	font-size: 1.5em;
+}
+}
